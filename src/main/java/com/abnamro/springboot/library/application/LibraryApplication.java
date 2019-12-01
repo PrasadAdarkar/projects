@@ -12,7 +12,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaRepositories("com.abnamro.springboot.library.repositories")
 @EntityScan("com.abnamro.springboot.library")
 public class LibraryApplication {
-//first app
+//first app new
 	public static void main(String[] args) {
 		SpringApplication.run(LibraryApplication.class, args);
 	}
